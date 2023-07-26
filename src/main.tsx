@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 //mengimpor Komponen App dari "./App"
 import { App } from "./App";
 //mengimpor store yang telah dikonfigurasi dari "./Store"
-import store from "./Store";
+import store from "./Store/index.todo";
 //mengimpor Provider dari "react-redux" untuk menyediakan store pada seluruh komponen aplikasi
 import { Provider } from "react-redux";
 //mengimpor file css global "./index.css"
