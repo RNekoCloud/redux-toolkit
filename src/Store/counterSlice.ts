@@ -1,3 +1,4 @@
+// mengimport fungsi createSlice dari Redux Toolkit
 import { createSlice } from "@reduxjs/toolkit";
 
 interface CounterState {
